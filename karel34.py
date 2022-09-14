@@ -92,6 +92,14 @@ def main():
     move()
     put_beeper()
     move()
+    move()
+    move()
+    move()
+    move()
+    move()
+    move()
+    turn_left()
+    turn_left()
     pass
 
 
