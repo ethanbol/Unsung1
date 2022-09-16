@@ -22,7 +22,7 @@ class ktools:
     self.tl()
 
   def pick(self):
-  """pick beaper"""
+    
     pick_beeper()
 
 
@@ -67,13 +67,72 @@ class ktools:
     self.m()
 
   def e(self):
-    
-    
+
+    self.tl()
+    self.put5()
+    self.tr()
+    self.m()
+    self.put2()
+    self.tr()
+    self.m()
+    self.m()
+    self.tr()
+    self.put2()
+    self.tl()
+    self.m()
+    self.m()
+    self.tl()
+    self.put2()
+    self.m()
+
+  def l(self):
+
+    self.m()
+    self.tl()
+    self.put5()
+    self.ta()
+    self.m()
+    self.m()
+    self.m()
+    self.m()
+    self.tl()
+    self.m()
+    self.put2()
+    self.m()
+
+  def o(self):
+
+    self.m()
+    self.m()
+    self.put2()
+    self.m()
+    self.tl()
+    self.put5()
+    self.tl()
+    self.m()
+    self.put2()
+    self.m()
+    self.tl()
+    self.put5()
+    self.tl()
+    self.m()
+    self.m()
+    self.m()
+    self.m()
     
 def main():
     """ Karel code goes here! """
     kt=ktools()
+    kt.m()
+    kt.tl()
+    kt.m()
+    kt.m()
+    kt.tr()
     kt.h()
+    kt.e()
+    kt.l()
+    kt.l()
+    kt.o()
     pass
 
 

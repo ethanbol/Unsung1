@@ -87,6 +87,39 @@ class ktools:
     self.m()
 
   def l(self):
+
+    self.m()
+    self.tl()
+    self.put5()
+    self.ta()
+    self.m()
+    self.m()
+    self.m()
+    self.m()
+    self.tr()
+    self.m()
+    self.put2()
+    self.m()
+
+  def o(self):
+
+    self.m()
+    self.m()
+    self.put2()
+    self.m()
+    self.tl()
+    self.put5()
+    self.tl()
+    self.m()
+    self.put2()
+    self.m()
+    self.tl()
+    self.put5()
+    self.tl()
+    self.m()
+    self.m()
+    self.m()
+    self.m()
     
 def main():
     """ Karel code goes here! """
