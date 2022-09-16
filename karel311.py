@@ -42,12 +42,54 @@ class ktools:
     self.m()
     self.put()
 
-  
+  def m3(self):
+
+    self.m()
+    self.m()
+    self.m()
     
 def main():
     """ Karel code goes here! """
     kt=ktools()
-    
+    kt.m()
+    kt.m()
+    kt.m()
+    kt.m()
+    kt.tl()
+    kt.m()
+    kt.m()
+    kt.m()
+    kt.m()
+    kt.put()
+    kt.tl()
+    kt.m()
+    kt.m()
+    kt.m()
+    kt.tr()
+    kt.m()
+    kt.tr()
+    kt.m3()
+    kt.put()
+    kt.tl()
+    kt.m3()
+    kt.tr()
+    kt.m()
+    kt.tr()
+    kt.m3()
+    kt.put()
+    kt.tl()
+    kt.m3()
+    kt.tr()
+    kt.m()
+    kt.tr()
+    kt.m3()
+    kt.put()
+    kt.tl()
+    kt.m3()
+    kt.tr()
+    kt.m3()
+    kt.m()
+    kt.tl()
     pass
 
 
