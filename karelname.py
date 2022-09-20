@@ -105,6 +105,19 @@ class ktools:
     self.m()
     self.m()
     self.tl()
+
+  def a(self):
+    self.tl()
+    self.put5()
+    self.tr()
+    self.m()
+    self.put()
+    self.m()
+    self.tr()
+    self.put5()
+    self.tr()
+    self.m()
+    self.
     
   
 def main():
@@ -117,6 +130,9 @@ def main():
     kt.tr()
     kt.e()
     kt.t()
+    kt.m()
+    kt.m()
+    kt.ta()
     kt.m()
     kt.m()
     kt.h()
