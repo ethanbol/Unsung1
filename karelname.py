@@ -117,8 +117,30 @@ class ktools:
     self.put5()
     self.tr()
     self.m()
-    self.
-    
+    self.tr()
+    self.m()
+    self.m()
+    self.put()
+    self.ta()
+    self.m()
+    self.m()
+    self.tl()
+    self.m()
+    self.m()
+
+  def n(self):
+
+    self.m()
+    self.tl()
+    self.put5()
+    self.tr()
+    self.m()
+    self.put()
+    self.m()
+    self.tl()
+    self.put5()
+    self.tl()
+    self.m()
   
 def main():
     """ Karel code goes here! """
@@ -136,6 +158,8 @@ def main():
     kt.m()
     kt.m()
     kt.h()
+    kt.a()
+    kt.n()
     
     
     pass
