@@ -41,37 +41,6 @@ class ktools:
     self.put2()
     self.m()
     self.put()
-
-  def one(self):
-    self.m()
-    self.tl()
-    self.put5()
-    self.ta()
-    self.m()
-    self.m()
-    self.m()
-    self.m()
-    self.tl()
-    self.m()
-
-
-  def zero(self):
-    self.m()
-    self.tl()
-    self.put5()
-    self.tr()
-    self.m()
-    self.put()
-    self.m()
-    self.tr()
-    self.put5()
-    self.tr()
-    self.m()
-    self.put()
-    self.ta()
-    self.m()
-    self.m()
-    self.m()
   
   def mm(self, num):
     for number in range(num):
@@ -90,16 +59,33 @@ class ktools:
       self.put()
       self.m()
     self.put()
+
+
+  def one(self, num):
+    for _ in range(num):
+      self.tl()
+      self.mm(5)
+      self.ta()
+      self.putm(5)
+      self.tl()
+      self.m()
+
+
+  def zero(self, num):
+    for _ in range(num):
+      self.m()
+      self.tl()
+      self.putm(5)
+      self.tr()
+      self.m()
+      self.put()
+      self.m()
+
     
 def main():
     """ Karel code goes here! """
     kt=ktools()
-    kt.m()
-    kt.tl()
-    kt.mm(5)
-    kt.ta()
-    kt.putm(5)
-    kt.tl() 
+    
     
     pass
 
