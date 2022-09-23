@@ -63,6 +63,7 @@ class ktools:
 
   def one(self, num):
     for _ in range(num):
+      self.m()
       self.tl()
       self.mm(5)
       self.ta()
@@ -80,12 +81,21 @@ class ktools:
       self.m()
       self.put()
       self.m()
+      self.tr()
+      self.putm(5)
+      self.tr()
+      self.m()
+      self.put()
+      self.ta()
+      self.m()
+      self.m()
 
     
 def main():
     """ Karel code goes here! """
     kt=ktools()
-    
+    kt.one(1)
+    kt.zero(15)
     
     pass
 
