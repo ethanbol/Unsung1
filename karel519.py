@@ -131,6 +131,7 @@ class ktools:
         self.m()
     pass
     
+  
   def do519(self):
     
     beepcnt = 0
@@ -145,6 +146,7 @@ class ktools:
     elif beepcnt == 2:
     
     elif beepcnt == 3:
+      
     
     else:
     
@@ -158,16 +160,7 @@ def main():
     kt.tl()
     kt.m()
     kt.sob()
-    while kt.sob():
-      kt.pick()
-      kt.tl()
-    while not kt.sob():
-      kt.m()
-      kt.fic()
-      if not kt.fic():
-        kt.ta()
-        kt.mm(3) 
-        kt.ta()
+    
     pass
 
 
