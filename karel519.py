@@ -139,7 +139,14 @@ class ktools:
 def main():
     """ Karel code goes here! """
     kt=ktools()
-    
+    kt.m()
+    kt.tl()
+    kt.m()
+    while kt.sob():
+      kt.pick()
+      kt.tl()
+    while not kt.sob():
+      kt.m()
     pass
 
 
