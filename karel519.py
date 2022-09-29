@@ -131,7 +131,6 @@ class ktools:
         self.m()
     pass
     
-  
   def do519(self):
     
     beepcnt = 0
@@ -149,6 +148,7 @@ class ktools:
       
     
     else:
+  
     
     beepcnt = 0
 
