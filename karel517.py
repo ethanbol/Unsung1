@@ -97,8 +97,6 @@ class ktools:
       self.m()
     self.put()
 
-
-
   def sob(self)-> bool:
     return beepers_present()
 
@@ -143,6 +141,7 @@ def main():
     kt=ktools()
     while not kt.sob():
       kt.mazemove()
+    pass
 
 
 if __name__ == "__main__":
