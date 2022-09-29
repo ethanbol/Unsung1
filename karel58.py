@@ -145,14 +145,14 @@ def main():
     kt.tr()
     while not kt.sob():
       kt.put()
+      kt.fic()
       kt.m()
       kt.tl()
-      kt.fic()
-      if kt.fic():
+      kt.fib()
+      if kt.fib():
+        kt.tr()  
+      if not kt.fic():
         kt.tr()
-        kt.sob()
-    
-      
     pass
 
 
