@@ -132,24 +132,23 @@ class ktools:
     pass
     
   def do519(self):
-    
     beepcnt = 0
     while self.sob():
       self.pick()
       beepcnt = beepcnt + 1
     if beepcnt == 1:
-      
       while not facing_north():
         self.tl()
 
     elif beepcnt == 2:
-    
+      while not faceing_west():
+        self.tl()
     elif beepcnt == 3:
-      
-    
+      while not facing_south():
+        self.tl()
     else:
-  
-    
+     while not facing_east():
+       self.tl()
     beepcnt = 0
 
 
@@ -159,8 +158,14 @@ def main():
     kt.m()
     kt.tl()
     kt.m()
-    kt.sob()
-    
+    while not kt.sob():
+      kt.sob()
+      kt.m()
+    while kt.sob():
+      kt.do519()
+    while not kt.sob():
+      kt.sob()
+      kt.m()
     pass
 
 
