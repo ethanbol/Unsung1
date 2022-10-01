@@ -161,46 +161,34 @@ def main():
     while not kt.sob():
       kt.sob()
       kt.m()
-      kt.sob()
     while kt.sob():
-      kt.sob()
       kt.do519()
     while not kt.sob():
       kt.sob()
       kt.m()
-      kt.sob()
     while kt.sob():
-      kt.sob()
       kt.do519()
     while not kt.sob():
       kt.sob()
       kt.m()
-      kt.sob()
     while kt.sob():
-      kt.sob()
       kt.do519()
     while not kt.sob():
       kt.sob()
       kt.m()
-      kt.sob()
     while kt.sob():
-      kt.sob()
       kt.do519()
     while not kt.sob():
       kt.sob()
       kt.m()
-      kt.sob()
     while kt.sob():
-      kt.sob()
       kt.do519()
     while not kt.sob():
       kt.sob()
       kt.m()
-      kt.sob()
     while kt.sob():
-      kt.sob()
       kt.do519()
-    
+
     pass
 
 
