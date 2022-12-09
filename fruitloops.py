@@ -11,3 +11,6 @@ for index in range(len(fruits)):
 
 lastfruit = fruits[len(fruits)- 1]
 print(lastfruit)
+
+lastys = ["hello"]
+print(lastys[len(lastys)-2] )
